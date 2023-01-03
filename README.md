@@ -3,4 +3,4 @@
 ## 技术栈
 
 - [React](https://reactjs.org/)
-- [arco-design]https://github.com/arco-design/arco-design
+- [arco-design](https://github.com/arco-design/arco-design)
