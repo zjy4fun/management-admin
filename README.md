@@ -9,3 +9,7 @@
 
 - [React](https://reactjs.org/)
 - [Arco Design](https://github.com/arco-design/arco-design)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
