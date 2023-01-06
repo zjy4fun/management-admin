@@ -8,7 +8,7 @@
 ## 技术栈
 
 - [React](https://reactjs.org/)
-- [Arco Design](https://github.com/arco-design/arco-design)
+- [Ant Design](https://ant.design/components/overview-cn/)
 
 ## License
 
