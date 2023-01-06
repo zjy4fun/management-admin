@@ -10,6 +10,14 @@
 - [React](https://reactjs.org/)
 - [Ant Design](https://ant.design/components/overview-cn/)
 
+## 运行
+
+```bash
+pnpm install
+pnpm run dev
+```
+
+
 ## License
 
 [MIT licensed](LICENSE).
