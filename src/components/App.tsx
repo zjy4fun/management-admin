@@ -9,9 +9,9 @@ function App() {
             <h1>登录鉴权页面</h1>
             <Routes>
                 <Route element={<Layout/>}>
-                    <Route path="/" element={<h1>PublicPage</h1>}/>
-                    <Route path="/login" element={<h1>LoginPage</h1>}/>
-                    <Route path="/protected" element={<h1>protected</h1>}/>
+                    <Route path="/" element={<div>PublicPage</div>}/>
+                    <Route path="/login" element={<div>LoginPage</div>}/>
+                    <Route path="/protected" element={<div>protected</div>}/>
                 </Route>
             </Routes>
         </AuthProvider>
