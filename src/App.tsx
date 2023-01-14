@@ -1,16 +1,16 @@
 import {Route, Routes} from "react-router-dom";
 import React from "react";
-import AuthProvider from "../context/UserContext";
-import Layout from '../components/Layout';
+import AuthProvider from "./context/UserContext";
+import Layout from './pages/Layout';
+import Login from "./pages/Login";
 
 function App() {
     return (
         <AuthProvider>
-            <h1>登录鉴权页面</h1>
             <Routes>
+                <Route path="/login" element={<Login/>}/>
                 <Route element={<Layout/>}>
                     <Route path="/" element={<div>PublicPage</div>}/>
-                    <Route path="/login" element={<div>LoginPage</div>}/>
                     <Route path="/protected" element={<div>protected</div>}/>
                 </Route>
             </Routes>
