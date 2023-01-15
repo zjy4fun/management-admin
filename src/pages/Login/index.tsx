@@ -4,6 +4,13 @@ import { Button, Checkbox, Form, Input } from 'antd';
 const LoginPage: React.FC = () => {
     const onFinish = (values: any) => {
         console.log('Success:', values);
+        // TODO 向后端发送登陆请求
+        if(values.username === 'admin' && values.password === '123456') {
+            // TODO 存储用户信息到 localStorage 或者 sessionStorage
+            console.log('login success');
+        }else{
+            console.log('login failed')
+        }
     };
 
     const onFinishFailed = (errorInfo: any) => {
